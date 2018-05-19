@@ -1,0 +1,14 @@
+<phpunit
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true">
+<filter>
+  <whitelist processUncoveredFilesFromWhitelist="false">
+    <directory suffix=".php">.</directory>
+    <directory suffix=".inc">.</directory>
+    <exclude>
+      <directory>vendor</directory>
+    </exclude>
+  </whitelist>
+</filter>
+</phpunit>
